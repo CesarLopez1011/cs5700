@@ -1,4 +1,6 @@
-package org.example
+package org.example.Shapes
+
+import org.example.Shape
 
 class Point (
     var x: Double,
@@ -9,8 +11,8 @@ class Point (
     }
 
     override fun move(deltaX: Double, deltaY: Double) {
-        x + deltaX
-        y + deltaY
+        x += deltaX
+        y += deltaY
     }
 
 }
